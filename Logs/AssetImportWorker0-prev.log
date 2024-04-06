@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.48f1 (b805b124c6b7) revision 12060081'; Using compiler version '192528614'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.37f1 (3b6005ad5ad6) revision 3891205'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32675 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-H:\Program Files\UnityHub\2020.3.48f1\Editor\Unity.exe
+H:\Program Files\UnityHub\2021.3.37f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,187 +15,420 @@ H:/Users/Dave/Forked/SimpleWings
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-34055
+34392
 Successfully changed project path to: H:/Users/Dave/Forked/SimpleWings
 H:/Users/Dave/Forked/SimpleWings
-Using Asset Import Pipeline V2.
-Player connection [31600] Host "[IP] 192.168.68.59 [Port] 805523232 [Flags] 2 [Guid] 3900760072 [EditorId] 3900760072 [Version] 1048832 [Id] WindowsEditor(7,Dave-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17136] Host "[IP] 192.168.68.59 [Port] 0 [Flags] 2 [Guid] 2493647730 [EditorId] 2493647730 [Version] 1048832 [Id] WindowsEditor(7,Dave-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31600] Host "[IP] 192.168.68.59 [Port] 805523232 [Flags] 2 [Guid] 3900760072 [EditorId] 3900760072 [Version] 1048832 [Id] WindowsEditor(7,Dave-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17136] Host "[IP] 192.168.68.59 [Port] 0 [Flags] 2 [Guid] 2493647730 [EditorId] 2493647730 [Version] 1048832 [Id] WindowsEditor(7,Dave-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 19.59 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 16.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.48f1 (b805b124c6b7)
-[Subsystems] Discovering subsystems at path H:/Program Files/UnityHub/2020.3.48f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
+[Subsystems] Discovering subsystems at path H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path H:/Users/Dave/Forked/SimpleWings/Assets
-GfxDevice: creating device client; threaded=0
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
-    Vendor:   
+    Vendor:   NVIDIA
     VRAM:     8024 MB
     Driver:   31.0.15.5212
 Initialize mono
-Mono path[0] = 'H:/Program Files/UnityHub/2020.3.48f1/Editor/Data/Managed'
-Mono path[1] = 'H:/Program Files/UnityHub/2020.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'H:/Program Files/UnityHub/2020.3.48f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Mono path[0] = 'H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: H:/Program Files/UnityHub/2020.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000741 seconds.
+Register platform support module: H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: H:/Program Files/UnityHub/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001787 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.94 ms, found 2 plugins.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 325 ms
+Refreshing native plugins compatible for Editor in 20.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.487 seconds
+- Completed reload, in  0.848 seconds
 Domain Reload Profiling:
-	ReloadAssembly (487ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (118ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (582ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (440ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001643 seconds.
+Registered in 0.002129 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
+- Completed reload, in  1.142 seconds
 Domain Reload Profiling:
-	ReloadAssembly (600ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (470ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (648ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1331 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.9 MB.
-System memory in use after: 63.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1769.
-Total: 2.196500 ms (FindLiveObjects: 0.101000 ms CreateObjectMapping: 0.029700 ms MarkObjects: 2.020200 ms  DeleteObjects: 0.045100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/SimpleWings/Demo/Scenes/Plane.unity
-  artifactKey: Guid(d03093aa1e993874f925ed4a22e88126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleWings/Demo/Scenes/Plane.unity using Guid(d03093aa1e993874f925ed4a22e88126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f03c60efc3badf54929e07f315e9bf') in 0.003758 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.569 seconds
-Domain Reload Profiling:
-	ReloadAssembly (569ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1772.
-Total: 2.094000 ms (FindLiveObjects: 0.102000 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.942000 ms  DeleteObjects: 0.016500 ms)
+Unloading 1374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (46.8 KB). Loaded Objects now: 1844.
+Memory consumption went from 67.7 MB to 67.7 MB.
+Total: 2.608400 ms (FindLiveObjects: 0.119900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 2.380700 ms  DeleteObjects: 0.075600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 4213.103369 seconds.
+  path: Assets/SimpleWings/Demo/UI/Sprites/FPM.png
+  artifactKey: Guid(1d4040bc8b646e44f90bce4e28dd9879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/UI/Sprites/FPM.png using Guid(1d4040bc8b646e44f90bce4e28dd9879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68b2a70a4bb47ce49de982181bdb39ae') in 0.112148 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/Shooter.cs
+  artifactKey: Guid(da6e557e9163cd7439b2e918193f1c6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/Shooter.cs using Guid(da6e557e9163cd7439b2e918193f1c6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e49ef9859f699a973db376890f12975') in 0.016538 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/WeaponDropper.cs
+  artifactKey: Guid(2983ed55e7ad2464db897a3acd7a4e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/WeaponDropper.cs using Guid(2983ed55e7ad2464db897a3acd7a4e6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cdf28b7a543651a2f783e782c2a5dca3') in 0.003045 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SimpleWings/Demo/ExamplePrefabs/Missile.prefab
+  artifactKey: Guid(9b2215f51e9210741b26f9f080e8387a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/ExamplePrefabs/Missile.prefab using Guid(9b2215f51e9210741b26f9f080e8387a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ab3af3a8e5d29a3706d9eaaaf42c3ec') in 0.022411 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SimpleWings/Demo/Scenes/Plane.unity
+  artifactKey: Guid(d03093aa1e993874f925ed4a22e88126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scenes/Plane.unity using Guid(d03093aa1e993874f925ed4a22e88126) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '611ef724ae49868ee31d2deeb5295a44') in 0.003970 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SimpleWings/WingCurves/StandardWing.asset
+  artifactKey: Guid(b5b1b1ce1ad5a884db0c0dd67034d8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/WingCurves/StandardWing.asset using Guid(b5b1b1ce1ad5a884db0c0dd67034d8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ac735c37ce31d5cbf2da10939811600') in 0.004629 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/LookAt.cs
+  artifactKey: Guid(009cfa368ab04f34ab02cb4fbf0e84d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/LookAt.cs using Guid(009cfa368ab04f34ab02cb4fbf0e84d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9218f67810f7f01a2182cf0f34417c33') in 0.002321 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Demo/UI/Sprites/cross.png
+  artifactKey: Guid(73f424298b957674598b4cb05a01cb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/UI/Sprites/cross.png using Guid(73f424298b957674598b4cb05a01cb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b766eb17441382abbeb6600cee8f27a') in 0.008443 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SimpleWings/Scripts/Editor/SimpleWingEditor.cs
+  artifactKey: Guid(cd62a0fa82ca740499214d0e9e8dea8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Scripts/Editor/SimpleWingEditor.cs using Guid(cd62a0fa82ca740499214d0e9e8dea8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f4b5bbb23a7669ce9c379955efd779f') in 0.002708 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/ExamplePrefabs/Bomb.prefab
+  artifactKey: Guid(01b9348ecbf2e4040ac482bc0442c63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/ExamplePrefabs/Bomb.prefab using Guid(01b9348ecbf2e4040ac482bc0442c63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '069f01cf93289c9b42923f19af5df318') in 0.004231 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Scripts/Editor/WingCurvesEditor.cs
+  artifactKey: Guid(1eecfd512008b134b84aa66155929cd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Scripts/Editor/WingCurvesEditor.cs using Guid(1eecfd512008b134b84aa66155929cd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '179d22057e00934e55268e112653f32b') in 0.002348 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/GearVisuals.cs
+  artifactKey: Guid(2074926c9349d9d4f9dc301469957a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/GearVisuals.cs using Guid(2074926c9349d9d4f9dc301469957a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '061590ec7f1b281eac3cc705141c1d50') in 0.002783 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/Materials/GridX10.mat
+  artifactKey: Guid(ef5066ddcad12b04dbaae7a32a4f2ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Materials/GridX10.mat using Guid(ef5066ddcad12b04dbaae7a32a4f2ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6033212bf540aa9d0a9d4baa47e4286e') in 0.016186 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/HeadsUpDisplay.cs
+  artifactKey: Guid(1a8672f4de873704da5bcccee1135796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/HeadsUpDisplay.cs using Guid(1a8672f4de873704da5bcccee1135796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '797425850e27ebdc23bfe7a27ccdfbe8') in 0.002503 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SimpleWings/Scripts/Wing/ControlSurface.cs
+  artifactKey: Guid(eb69e006a35e3024ebd75b9b251ff551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Scripts/Wing/ControlSurface.cs using Guid(eb69e006a35e3024ebd75b9b251ff551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '657be693e21a72ce872fbe46d4de1bdb') in 0.003017 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/Engine.cs
+  artifactKey: Guid(de249faf6def1f94381e0f04ad5e4cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/Engine.cs using Guid(de249faf6def1f94381e0f04ad5e4cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '650c0e712c79de089c730cc819d6c23d') in 0.002359 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SimpleWings/Demo/ExamplePrefabs/FighterJet.prefab
+  artifactKey: Guid(2082147b48463034eaef2fc2b5b07a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/ExamplePrefabs/FighterJet.prefab using Guid(2082147b48463034eaef2fc2b5b07a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e605e82ff49641f3fae6f22f401a359') in 0.008722 seconds 
+Number of asset objects unloaded after import = 437
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Demo/Materials/Textures/grid.png
+  artifactKey: Guid(3993c009518dfd344b43b0f5b2befdd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Materials/Textures/grid.png using Guid(3993c009518dfd344b43b0f5b2befdd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b889c1f1f6d3216e599e69ae44763bb') in 0.007751 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/Airplane.cs
+  artifactKey: Guid(18d52e875f660c7409800f5fa7811621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/Airplane.cs using Guid(18d52e875f660c7409800f5fa7811621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0650752af1edddc2322514b15a282b39') in 0.002486 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/WingCurves/LiftingWing.asset
+  artifactKey: Guid(59686f4b815483544a40b794156a99b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/WingCurves/LiftingWing.asset using Guid(59686f4b815483544a40b794156a99b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8d935b6fa851ae99bf0c661b7e6ffe2') in 0.003082 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Scripts/Wing/WingCurves.cs
+  artifactKey: Guid(a04d28b268cf7314089e04c6f0d294a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Scripts/Wing/WingCurves.cs using Guid(a04d28b268cf7314089e04c6f0d294a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aff4c4eb9e945535ba77332892530203') in 0.002276 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/WingCurves/FlatWing.asset
+  artifactKey: Guid(58f9c07cc5fb60b419af20276ffb7c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/WingCurves/FlatWing.asset using Guid(58f9c07cc5fb60b419af20276ffb7c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a514d212428660334259123b466e50cd') in 0.002343 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/UI/HUD.prefab
+  artifactKey: Guid(5dae165fffa5db54e9fa508584cc15c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/UI/HUD.prefab using Guid(5dae165fffa5db54e9fa508584cc15c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94c433c137dff4d379ceded81b181484') in 0.014731 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SimpleWings/Demo/ExamplePrefabs/LightPlane.prefab
+  artifactKey: Guid(0719bde45b6c1404fb421388eb457443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/ExamplePrefabs/LightPlane.prefab using Guid(0719bde45b6c1404fb421388eb457443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce85b36986e3e3d090d2189d7e7e3b2a') in 0.006043 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SimpleWings/Demo/Scenes/Plane/LightingData.asset
+  artifactKey: Guid(2338c7ea5d28e5f4a95a80e0bc784e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scenes/Plane/LightingData.asset using Guid(2338c7ea5d28e5f4a95a80e0bc784e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 417]
+
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Editor\Src\GI\Enlighten\LightingDataAsset.cpp line 424]
+
+ -> (artifact id: '705216b44c110b14e387c550d5fe1c6a') in 0.003195 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SimpleWings/Demo/Materials/GridX50.mat
+  artifactKey: Guid(5ca49f2265d381648a018a5be176a4c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Materials/GridX50.mat using Guid(5ca49f2265d381648a018a5be176a4c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66ef6b0cb8b5fb2f3206f58e50fdf0f1') in 0.004164 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/ExamplePrefabs/WheelVisual.prefab
+  artifactKey: Guid(b377d0fdf6ee1744f9f2dd9dbcd62592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/ExamplePrefabs/WheelVisual.prefab using Guid(b377d0fdf6ee1744f9f2dd9dbcd62592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '609e636f7f14c920ab072a0bad8f1adf') in 0.002827 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Scripts/Wing/SimpleWing.cs
+  artifactKey: Guid(e0682376e198e254baa203ad9293f11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Scripts/Wing/SimpleWing.cs using Guid(e0682376e198e254baa203ad9293f11b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b3a3bceee61701436e3b05c4afd3c1b') in 0.002188 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/Scripts/Weapon.cs
+  artifactKey: Guid(8826b9218e4e2334086aea977a528177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scripts/Weapon.cs using Guid(8826b9218e4e2334086aea977a528177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '154704fd9a783bf2fcbaaa322f769879') in 0.002153 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SimpleWings/Demo/Scenes/Plane/ReflectionProbe-0.exr
+  artifactKey: Guid(18ede1eaad9db0a458a79b54bde4aa36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimpleWings/Demo/Scenes/Plane/ReflectionProbe-0.exr using Guid(18ede1eaad9db0a458a79b54bde4aa36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79ff4f419efb36440f3624af5866be99') in 0.015619 seconds 
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
